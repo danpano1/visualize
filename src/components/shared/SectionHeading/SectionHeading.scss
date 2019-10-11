@@ -1,0 +1,17 @@
+.section-heading {
+    position: relative;
+    display:inline-block; 
+    width: auto;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;    
+        width: 110%; 
+        left: 0;
+        bottom: -5px;
+        border-bottom: 1.5px solid rgb(36, 36, 36);
+    }
+}
